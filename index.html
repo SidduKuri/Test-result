@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row row-a">
+            <div class="col-lg-12"></div>
+        </div>
+        <div class="row row-b">
+            <div class="col-lg-12 col-a">
+                <h1>RESULT OF THE TEST</h1>
+                <ul>
+                    <li><a href="" id="cal"><i class="fa fa-calendar"></i></a></li>
+                    <li><a href="" id="times"><i class="fa fa-calendar-times-o"></i></a></li>
+                    <li><a href="" id="clock"><i class="fa fa-clock-o"></i></a></li>
+                    <li><a href="" id="comm"><i class="fa fa-comment"></i></a></li>
+                    <li><a href="" id="cal"><i class="fa fa-calendar"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-lg-12 col-b">
+                <div class="slide-container">
+                    <input type="range" min="0" max="100" value="0" id="myRange" class="slider">
+                    <span id="rel">RELEVANT</span>
+                    <p>value <span id="value"></span></p>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <button class="btn btn-light" type="reset" id="reset" onclick="resetHandler()">Try Again<i
+                    class="fa fa-chevron-right" aria-hidden="true"></i></button>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="code.js"></script>
+</body>
+
+</html>
